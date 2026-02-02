@@ -6,6 +6,8 @@
 //step 6: provide the store to app
 //step 7: use the store in component
 import React from "react";
+
+
 import TodosApp from "./components/todos";
 
 const App = () => {
