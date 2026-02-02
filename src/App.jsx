@@ -6,15 +6,13 @@
 //step 6: provide the store to app
 //step 7: use the store in component
 import React from "react";
-
-
-import TodosApp from "./components/todos";
+import CounterView from "./components/services/slice/counterView";
 
 const App = () => {
   return (
     <div>
       <h1>React Redux App</h1>
-      <TodosApp />
+      <CounterView/>
     </div>
   );
 };
