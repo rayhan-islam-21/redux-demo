@@ -7,12 +7,14 @@
 //step 7: use the store in component
 import React from "react";
 import CounterView from "./components/services/slice/counterView";
+import PostView from "./components/posts/postView";
 
 const App = () => {
   return (
     <div>
       <h1>React Redux App</h1>
       <CounterView/>
+      <PostView/>
     </div>
   );
 };
