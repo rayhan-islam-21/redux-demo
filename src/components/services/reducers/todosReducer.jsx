@@ -16,7 +16,7 @@ const todosReducer = (state = initialState, action) => {
       };
     case TODOS_SUCCESS:
       return {
-        todos: action.payloadm,
+        todos: action.payload,
         isloading: false,
         error: null,
       };
